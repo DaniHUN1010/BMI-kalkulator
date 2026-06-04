@@ -35,14 +35,22 @@ public class HelloController {
 
 
             String kategoria;
-            if (tti < 18.5) {
-                kategoria = "Sovány";
-            } else if (tti < 25.0) {
-                kategoria = "Normál testsúly";
-            } else if (tti < 30.0) {
+            if (tti < 16) {
+                kategoria = "Súlyos soványság";
+            } else if (tti < 17) {
+                kategoria = "Mérsékelt soványság";
+            } else if (tti < 18.5) {
+                kategoria = "Enyhe soványság";
+            } else if (tti < 25) {
+                kategoria = "Normális testsúly";
+            } else if (tti < 30) {
                 kategoria = "Túlsúlyos";
+            } else if (tti < 35) {
+                kategoria = "I. fokú elhízás";
+            } else if (tti < 40) {
+                kategoria = "II. fokú elhízás";
             } else {
-                kategoria = "Elhízott";
+                kategoria = "III. fokú (súlyos) elhízás";
             }
 
 

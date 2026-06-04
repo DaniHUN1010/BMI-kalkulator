@@ -30,5 +30,13 @@
             <Button alignment="CENTER" contentDisplay="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#calculate" text="Mehet" HBox.hgrow="ALWAYS" />
          </children>
       </HBox>
+      <HBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" VBox.vgrow="ALWAYS">
+         <children>
+
+            <Label fx:id="ttiEredmeny" text="TTI: (szám) -- (kategória)" HBox.hgrow="ALWAYS" />
+         </children>
+      </HBox>
+
    </children>
 </VBox>
+

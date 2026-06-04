@@ -10,9 +10,19 @@
   </padding>
    <children>
       <Label text="TTI kalkulátor" />
-      <HBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" VBox.vgrow="ALWAYS">
+      <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="20.0" prefWidth="200.0">
          <children>
-            <TextField fx:id="testtomeg" HBox.hgrow="ALWAYS" />
+            <Label text="Testtömeg (kg):" />
+         </children>
+      </HBox>
+      <HBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="45.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+         <children>
+            <TextField fx:id="testtomeg" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+         </children>
+      </HBox>
+      <HBox prefHeight="20.0" prefWidth="200.0">
+         <children>
+            <Label minWidth="-Infinity" text="Testmagasság (cm):" />
          </children>
       </HBox>
       <HBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" VBox.vgrow="ALWAYS">
